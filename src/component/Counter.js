@@ -10,7 +10,7 @@ function Counter() {
     <div className="counter">
       <button onClick={() => setBool(!bool)} >Re-Render</button>
       <button onClick={() => setCount(count + 1)}>Increment</button>
-      <p>Count: {count}</p>
+      <p>Counts: {count}</p>
     </div>
   )
 }
