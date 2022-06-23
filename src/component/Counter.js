@@ -1,6 +1,7 @@
+import React from 'react'
 import { useState } from "react";
 
-import React from 'react'
+//Mount (initial state)
 
 function Counter() {
   const [count, setCount] = useState(0);
