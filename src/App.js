@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <button onClick={() => setShow(!show)}
         style={{margin: '1rem 0'}}
-      >Hide Counter</button>
+      > { show ? 'Hide' : 'Show'} Counter</button>
       { show && <Counter />} 
-    </div>
+    </div> 
   );
 }
 
