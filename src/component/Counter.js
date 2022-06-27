@@ -19,7 +19,7 @@ function Counter() {
   })
 
   // const startTime = new Date();
-  // while(new Date() - startTime < 100) {
+  // while(new Date() - startTime < 500) {
   //   console.log(new Date - startTime)
   // }
 
