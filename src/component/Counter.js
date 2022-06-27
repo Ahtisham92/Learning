@@ -5,7 +5,7 @@ import { useState, useEffect, useLayoutEffect } from "react";
 
 function Counter() {
   const [count, setCount] = useState(0);
-  const [bool, setBool] = useState(true);
+  const [bool, setBool] = useState(false);
 
   useLayoutEffect(() => {
     if(count === 3){
