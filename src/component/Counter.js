@@ -9,7 +9,7 @@ function Counter() {
 
   useLayoutEffect(() => {
     if(count === 3){
-      setCount(4)
+      setCount(5)
     }
 
   }, [count])
